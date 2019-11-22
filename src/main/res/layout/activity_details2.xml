@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".j.MainActivity">
+    tools:context=".k.Details2Activity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView_id"
+    <ImageView
+        android:id="@+id/img_id"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="2dp"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        android:contentDescription="@string/full_screen_image"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

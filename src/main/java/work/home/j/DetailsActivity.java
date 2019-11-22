@@ -1,4 +1,4 @@
-package work.home;
+package work.home.j;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,6 +11,7 @@ import java.util.Objects;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import work.home.R;
 
 public class DetailsActivity extends AppCompatActivity {
 

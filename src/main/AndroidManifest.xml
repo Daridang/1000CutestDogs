@@ -15,14 +15,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".DetailsActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".k.Details2Activity"></activity>
+        <activity android:name=".k.Main2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".j.DetailsActivity" />
+        <activity android:name=".j.MainActivity" />
     </application>
 
 </manifest>

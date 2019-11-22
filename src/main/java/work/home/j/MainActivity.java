@@ -1,4 +1,4 @@
-package work.home;
+package work.home.j;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -26,8 +26,9 @@ import java.util.Objects;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import work.home.adapter.DataAdapter;
-import work.home.interfaces.ItemClickListener;
+import work.home.R;
+import work.home.j.adapter.DataAdapter;
+import work.home.j.interfaces.ItemClickListener;
 
 public class MainActivity extends AppCompatActivity implements ItemClickListener {
 

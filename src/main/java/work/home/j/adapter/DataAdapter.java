@@ -1,4 +1,4 @@
-package work.home.adapter;
+package work.home.j.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,9 +15,9 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import work.home.MainActivity;
+import work.home.j.MainActivity;
 import work.home.R;
-import work.home.interfaces.ItemClickListener;
+import work.home.j.interfaces.ItemClickListener;
 
 
 /**
